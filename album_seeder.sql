@@ -1,5 +1,7 @@
 USE mileage_db;
 
+TRUNCATE albums;
+
 INSERT INTO albums (artist, album, releaseDate, sales, genre)
 VALUES ('Shania Twain', 'Come On Over', 1997, 29.6, 'Country, Pop'),
 	   ('Led Zeppelin', 'Led Zeppelin IV', 1971, 29.0, 'Hard rock, Heavy metal, Folk'),
